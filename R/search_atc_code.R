@@ -4,10 +4,8 @@
 #' from the World Health Organisation (WHO) Collaborating Centre for Drug Statistics Methodology website (https://www.whocc.no)
 #'
 #' @param ATC_CODE a character string of a valid ATC code
-#' @return a `data.frame`
+#' @return
 #' @export
-#' @examples
-#' search_atc_code('A10BA02')
 
 search_atc_code <- function(ATC_CODE)
 {
@@ -55,7 +53,8 @@ search_atc_code <- function(ATC_CODE)
 
   whitespace <- stringr::str_locate_all(res_d, '\\s+')[[1]]
 
-  word_end <- whitespace[which(whitespace[, 1] == res_e + 1) + 1, ][[1]]
+  word_end <-
+    whitespace[which(whitespace[, 1] == res_e + 1) + 1,][[1]]
 
   chemical_name <-
     substr(res_d, start = res_e + 2, stop = word_end - 1)
