@@ -23,10 +23,10 @@ search_atc_code <- function(ATC_CODE)
 
   xml_split <- strsplit(xml_parse, '\n')[[1]]
 
-  if(xml_split[168] == '') {
+
+  if(xml_split[169] == "") {
     stop('Invalid ATC Code', call. = FALSE)
   }
-
 
   res_a <- xml_split[167]
 
