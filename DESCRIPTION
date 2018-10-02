@@ -1,0 +1,16 @@
+Package: ATC
+Type: Package
+Title: Retrieve Classification Details for a Anatomical Therapeutic Chemical (ATC) Code
+Version: 0.1.0
+Authors@R: c(
+    person("Tom", "Wilson", , "tpw2@aber.ac.uk", c("aut", "cre")))
+Description: Retrieve the hierarchical classification details for a Anatomical Therapeutic Chemical (ATC) code
+from the World Health Organisation (WHO) Collaborating Centre for Drug Statistics Methodology website (https://www.whocc.no).
+License: GPL (>= 3)
+Imports:
+    httr,
+    xml2,
+    stringr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
