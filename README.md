@@ -1,6 +1,6 @@
 # ATC
 
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build Status](https://travis-ci.org/wilsontom/ATC.svg?branch=master)](https://travis-ci.org/wilsontom/ATC) [![Build status](https://ci.appveyor.com/api/projects/status/6eu4ysytsf0oqepn/branch/master?svg=true)](https://ci.appveyor.com/project/wilsontom/atc/branch/master) ![License](https://img.shields.io/badge/license-GNU%20GPL%20v3.0-blue.svg "GNU GPL v3.0")
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Build Status](https://travis-ci.org/wilsontom/ATC.svg?branch=master)](https://travis-ci.org/wilsontom/ATC) [![Build status](https://ci.appveyor.com/api/projects/status/6eu4ysytsf0oqepn/branch/master?svg=true)](https://ci.appveyor.com/project/wilsontom/atc/branch/master) [![codecov](https://codecov.io/gh/wilsontom/ATC/branch/master/graph/badge.svg)](https://codecov.io/gh/wilsontom/ATC) ![License](https://img.shields.io/badge/license-GNU%20GPL%20v3.0-blue.svg "GNU GPL v3.0")
 
 
 > __Retrieve Classification Details for a Anatomical Therapeutic Chemical (ATC) Code__
