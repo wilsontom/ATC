@@ -9,7 +9,15 @@ search_atc_code(ATC_CODE)
 \arguments{
 \item{ATC_CODE}{a character string of a valid ATC code}
 }
+\value{
+a \code{tibble} of ATC classification level and value
+}
 \description{
 Retrieve the hierarchical classification details for a Anatomical Therapeutic Chemical (ATC) code
 from the World Health Organisation (WHO) Collaborating Centre for Drug Statistics Methodology website (https://www.whocc.no)
+}
+\examples{
+\dontrun{
+search_atc_code('A10BA02')
+}
 }
