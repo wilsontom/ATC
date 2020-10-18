@@ -1,6 +1,6 @@
 # ATC
 
-[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable) [![codecov](https://codecov.io/gh/wilsontom/ATC/branch/master/graph/badge.svg)](https://codecov.io/gh/wilsontom/ATC) ![License](https://img.shields.io/badge/license-GNU%20GPL%20v3.0-blue.svg "GNU GPL v3.0")
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable) ![R-CMD-check](https://github.com/wilsontom/ATC/workflows/R-CMD-check/badge.svg) [![codecov](https://codecov.io/gh/wilsontom/ATC/branch/master/graph/badge.svg)](https://codecov.io/gh/wilsontom/ATC) ![License](https://img.shields.io/badge/license-GNU%20GPL%20v3.0-blue.svg "GNU GPL v3.0")
 
 
 > __Retrieve Classification Details for an Anatomical Therapeutic Chemical (ATC) Code__
